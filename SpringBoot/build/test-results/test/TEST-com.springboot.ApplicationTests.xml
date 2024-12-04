@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.springboot.ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-04T00:43:42" hostname="DESKTOP-U97DCG1" time="1.31">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.springboot.ApplicationTests" time="1.31"/>
+  <system-out><![CDATA[09:43:40.315 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.springboot.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:43:40.460 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.springboot.Application for test class com.springboot.ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.0)
+
+2024-12-04T09:43:40.925+09:00  INFO 4116 --- [SpringBoot] [    Test worker] com.springboot.ApplicationTests          : Starting ApplicationTests using Java 17.0.12 with PID 4116 (started by user in C:\Users\user\Desktop\learn_release\SpringBoot)
+2024-12-04T09:43:40.927+09:00  INFO 4116 --- [SpringBoot] [    Test worker] com.springboot.ApplicationTests          : No active profile set, falling back to 1 default profile: "default"
+2024-12-04T09:43:41.691+09:00  WARN 4116 --- [SpringBoot] [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-12-04T09:43:41.753+09:00  INFO 4116 --- [SpringBoot] [    Test worker] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-12-04T09:43:42.234+09:00  INFO 4116 --- [SpringBoot] [    Test worker] com.springboot.ApplicationTests          : Started ApplicationTests in 1.588 seconds (process running for 3.028)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

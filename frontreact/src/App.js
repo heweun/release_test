@@ -16,7 +16,7 @@ function App() {
       const formData = new FormData();
       formData.append('review', review);
   
-      const response = await axios.post('http://localhost:8080/classification', formData, {
+      const response = await axios.post('api/classification', formData, {
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
         },
