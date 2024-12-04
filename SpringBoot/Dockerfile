@@ -2,7 +2,7 @@
 FROM openjdk:17-jdk-slim
 
 # Application JAR file
-ARG JAR_FILE=build/libs/SpringBoot-0.0.1-SNAPSHOT-plain.jar
+ARG JAR_FILE=build/libs/SpringBoot-0.0.1-SNAPSHOT.jar
 
 # Copy the JAR file to the container
 COPY ${JAR_FILE} app.jar
